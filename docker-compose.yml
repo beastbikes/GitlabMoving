@@ -1,0 +1,8 @@
+version: '2'
+services:
+  gm:
+    build: .
+    command: python moving.py
+    volumes:
+      - .:/code
+    env_file: .env
