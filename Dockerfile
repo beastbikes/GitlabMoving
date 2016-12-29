@@ -1,4 +1,4 @@
-FROM daocloud.io/bohanzhang/python-geo
+FROM python:3.6
 MAINTAINER BohanZhnag <bohan.zhang@speedx.com>
 
 ENV PYTHONUNBUFFERED 1
